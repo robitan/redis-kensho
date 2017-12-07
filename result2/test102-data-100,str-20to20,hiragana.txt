@@ -1,0 +1,67 @@
+command [python3 ./src/redis_hash2.py 3 3 100 20 20 True]
+----- test 1 -----
+
+test 1 - 1
+Value at:0x7f1b1c9884c0 refcount:1 encoding:ziplist serializedlength:4412 lru:2672182 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 1 - 2
+Value at:0x7f1b1c854f60 refcount:1 encoding:ziplist serializedlength:4412 lru:2672185 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 1 - 3
+Value at:0x7f1b1c854a10 refcount:1 encoding:ziplist serializedlength:4412 lru:2672188 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+----- test 2 -----
+
+test 2 - 1
+Value at:0x7f1b1c851f90 refcount:1 encoding:ziplist serializedlength:4397 lru:2672191 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 2 - 2
+Value at:0x7f1b1c854a10 refcount:1 encoding:ziplist serializedlength:4397 lru:2672194 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 2 - 3
+Value at:0x7f1b1c851f90 refcount:1 encoding:ziplist serializedlength:4397 lru:2672197 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+----- test 3 -----
+
+test 3 - 1
+Value at:0x7f1b1c854a10 refcount:1 encoding:ziplist serializedlength:4379 lru:2672200 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 3 - 2
+Value at:0x7f1b1c851f90 refcount:1 encoding:ziplist serializedlength:4379 lru:2672203 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
+
+test 3 - 3
+Value at:0x7f1b1c854a10 refcount:1 encoding:ziplist serializedlength:4379 lru:2672206 lru_seconds_idle:0
+
+used_memory by hash: 46928
+used_memory by key: 45168
+hash / key : 1.038966
