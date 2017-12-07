@@ -1,0 +1,85 @@
+command [python3 ./src/redis_kensho_compress.py 3 3 1 100 100 True]
+----- test 1 -----
+
+test 1 - 1
+used_memory by hash: 37504
+used_memory by key: 432
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 86.814815
+json / str : 87.074074
+compressd_json / str : 86.111111
+
+test 1 - 2
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 760
+used_memory by compressed json: 37200
+hash / str : 1.005793
+json / str : 0.020382
+compressd_json / str : 0.997640
+
+test 1 - 3
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 1.005793
+json / str : 1.008796
+compressd_json / str : 0.997640
+----- test 2 -----
+
+test 2 - 1
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 1.005793
+json / str : 1.008796
+compressd_json / str : 0.997640
+
+test 2 - 2
+used_memory by hash: 37504
+used_memory by key: 432
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 86.814815
+json / str : 87.074074
+compressd_json / str : 86.111111
+
+test 2 - 3
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 37616
+used_memory by compressed json: 344
+hash / str : 1.005793
+json / str : 1.008796
+compressd_json / str : 0.009225
+----- test 3 -----
+
+test 3 - 1
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 1.005793
+json / str : 1.008796
+compressd_json / str : 0.997640
+
+test 3 - 2
+used_memory by hash: 37504
+used_memory by key: 37288
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 1.005793
+json / str : 1.008796
+compressd_json / str : 0.997640
+
+test 3 - 3
+used_memory by hash: 37504
+used_memory by key: 432
+used_memory by json: 37616
+used_memory by compressed json: 37200
+hash / str : 86.814815
+json / str : 87.074074
+compressd_json / str : 86.111111

@@ -1,0 +1,129 @@
+[OS]
+PRETTY_NAME="Debian GNU/Linux 9 (stretch)"
+NAME="Debian GNU/Linux"
+VERSION_ID="9"
+VERSION="9 (stretch)"
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+[python-version]
+Python 3.5.3
+
+[redis server version]
+Redis server v=3.2.6 sha=00000000:0 malloc=jemalloc-3.6.0 bits=64 build=826601c992442478
+
+[redis config]
+hash-max-ziplist-entries
+512
+hash-max-ziplist-value
+64
+list-max-ziplist-size
+-2
+zset-max-ziplist-entries
+128
+zset-max-ziplist-value
+64
+
+[redis info]
+# Server
+redis_version:3.2.6
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:826601c992442478
+redis_mode:standalone
+os:Linux 4.9.0-4-amd64 x86_64
+arch_bits:64
+multiplexing_api:epoll
+gcc_version:6.2.1
+process_id:631
+run_id:25debd935ba9bd3df09dcd5d76d45ea4b7875ede
+tcp_port:6379
+uptime_in_seconds:249
+uptime_in_days:0
+hz:10
+lru_clock:2728420
+executable:/usr/bin/redis-server
+config_file:/etc/redis/redis.conf
+
+# Clients
+connected_clients:1
+client_longest_output_list:0
+client_biggest_input_buf:0
+blocked_clients:0
+
+# Memory
+used_memory:812016
+used_memory_human:792.98K
+used_memory_rss:3682304
+used_memory_rss_human:3.51M
+used_memory_peak:953392
+used_memory_peak_human:931.05K
+total_system_memory:621363200
+total_system_memory_human:592.58M
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:noeviction
+mem_fragmentation_ratio:4.53
+mem_allocator:jemalloc-3.6.0
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:291
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1512677834
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:-1
+rdb_current_bgsave_time_sec:-1
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+
+# Stats
+total_connections_received:209
+total_commands_processed:566
+instantaneous_ops_per_sec:0
+total_net_input_bytes:17608
+total_net_output_bytes:1057820792
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+evicted_keys:0
+keyspace_hits:0
+keyspace_misses:0
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:0
+migrate_cached_sockets:0
+
+# Replication
+role:master
+connected_slaves:0
+master_repl_offset:0
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:0.40
+used_cpu_user:0.35
+used_cpu_sys_children:0.00
+used_cpu_user_children:0.00
+
+# Cluster
+cluster_enabled:0
+
+# Keyspace
+

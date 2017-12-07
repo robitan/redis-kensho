@@ -1,0 +1,85 @@
+command [python3 ./src/redis_kensho_compress.py 3 3 1 1000 1000 True]
+----- test 1 -----
+
+test 1 - 1
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+
+test 1 - 2
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 1656
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.041359
+
+test 1 - 3
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+----- test 2 -----
+
+test 2 - 1
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+
+test 2 - 2
+used_memory by hash: 40256
+used_memory by key: 3184
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 12.643216
+json / str : 14.185930
+compressd_json / str : 12.095477
+
+test 2 - 3
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+----- test 3 -----
+
+test 3 - 1
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+
+test 3 - 2
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838
+
+test 3 - 3
+used_memory by hash: 40256
+used_memory by key: 40040
+used_memory by json: 45168
+used_memory by compressed json: 38512
+hash / str : 1.005395
+json / str : 1.128072
+compressd_json / str : 0.961838

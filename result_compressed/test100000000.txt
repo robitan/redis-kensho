@@ -1,0 +1,4 @@
+command [python3 ./src/redis_kensho_compress.py 3 3 1 100000000 100000000 True]
+----- test 1 -----
+
+test 1 - 1
